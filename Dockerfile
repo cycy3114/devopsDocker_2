@@ -1,3 +1,10 @@
-FROM python:3.10-slim
-COPY app.py /app.py
-CMD ["python", "/app.py"]
+FROM python:3.9-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . .
+
+CMD ["python", "app/main.py"]

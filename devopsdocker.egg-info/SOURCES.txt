@@ -1,0 +1,11 @@
+README.md
+setup.py
+app/__init__.py
+app/main.py
+devopsdocker.egg-info/PKG-INFO
+devopsdocker.egg-info/SOURCES.txt
+devopsdocker.egg-info/dependency_links.txt
+devopsdocker.egg-info/requires.txt
+devopsdocker.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
